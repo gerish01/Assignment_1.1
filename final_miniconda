@@ -1,0 +1,91 @@
+Script started on 2024-03-13 21:56:52+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="64" LINES="32"]
+[?2004h(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ [7mwget https://repo.anaconda.com/minic[27m[7mo[27m[7mnda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda[27m[7m.[27m[7msh[27m[A[A(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+[?2004l--2024-03-13 21:57:09--  https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+Resolving repo.anaconda.com (repo.anaconda.com)... 104.16.130.3, 104.16.131.3, 2606:4700::6810:8203, ...
+Connecting to repo.anaconda.com (repo.anaconda.com)|104.16.130.3|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 144041912 (137M) [application/octet-stream]
+Saving to: ‘/home/gerish/miniconda3/miniconda.sh’
+
+        /home/g   0%[        ]       0  --.-KB/s                      /home/ge   0%[        ]   1.04M  4.80MB/s                     /home/ger   3%[        ]   4.72M  11.3MB/s                    /home/geri   5%[        ]   7.02M  11.4MB/s                   /home/geris   6%[        ]   9.24M  11.3MB/s                  /home/gerish   8%[        ]  11.87M  11.6MB/s                 /home/gerish/  11%[        ]  15.46M  12.7MB/s                /home/gerish/m  14%[>       ]  19.29M  13.4MB/s               /home/gerish/mi  17%[>       ]  23.65M  14.4MB/s               home/gerish/min  20%[>       ]  27.49M  14.8MB/s               ome/gerish/mini  22%[>       ]  31.24M  15.2MB/s               me/gerish/minic  25%[=>      ]  35.08M  15.5MB/s               e/gerish/minico  27%[=>      ]  38.29M  15.5MB/s               /gerish/minicon  29%[=>      ]  41.01M  15.4MB/s               gerish/minicond  31%[=>      ]  43.93M  15.3MB/s               erish/miniconda  33%[=>      ]  46.66M  15.1MB/s    eta 6s     rish/miniconda3  36%[=>      ]  50.35M  15.3MB/s    eta 6s     ish/miniconda3/  39%[==>     ]  54.26M  16.1MB/s    eta 6s     sh/miniconda3/m  41%[==>     ]  57.65M  16.3MB/s    eta 6s     h/miniconda3/mi  44%[==>     ]  61.32M  16.7MB/s    eta 6s     /miniconda3/min  47%[==>     ]  65.24M  17.3MB/s    eta 5s     miniconda3/mini  50%[===>    ]  69.24M  17.5MB/s    eta 5s     iniconda3/minic  53%[===>    ]  73.01M  17.5MB/s    eta 5s     niconda3/minico  56%[===>    ]  77.13M  17.7MB/s    eta 5s     iconda3/minicon  58%[===>    ]  80.60M  17.3MB/s    eta 5s     conda3/minicond  61%[===>    ]  83.94M  17.3MB/s    eta 3s     onda3/miniconda  63%[====>   ]  87.01M  17.1MB/s    eta 3s     nda3/miniconda.  65%[====>   ]  90.35M  16.9MB/s    eta 3s     da3/miniconda.s  68%[====>   ]  94.69M  17.2MB/s    eta 3s     a3/miniconda.sh  71%[====>   ]  98.22M  17.5MB/s    eta 3s     3/miniconda.sh   74%[====>   ] 102.49M  18.1MB/s    eta 2s     /miniconda.sh    77%[=====>  ] 105.83M  18.0MB/s    eta 2s     miniconda.sh     80%[=====>  ] 109.98M  18.1MB/s    eta 2s     iniconda.sh      82%[=====>  ] 113.26M  17.8MB/s    eta 2s     niconda.sh       85%[=====>  ] 117.08M  18.0MB/s    eta 2s     iconda.sh        87%[======> ] 120.43M  18.0MB/s    eta 1s     conda.sh         90%[======> ] 124.74M  17.9MB/s    eta 1s     onda.sh          93%[======> ] 128.01M  17.5MB/s    eta 1s     nda.sh           95%[======> ] 131.82M  17.4MB/s    eta 1s     da.sh            98%[======> ] 135.66M  17.5MB/s    eta 1s     /home/gerish/mi 100%[=======>] 137.37M  17.7MB/s    in 8.1s    
+
+2024-03-13 21:57:17 (16.9 MB/s) - ‘/home/gerish/miniconda3/miniconda.sh’ saved [144041912/144041912]
+
+[?2004h(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ [7mbash ~/miniconda3/miniconda.sh -b -u[27m[7m [27m[7m-p ~/miniconda3[27m[A(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+[?2004lPREFIX=/home/gerish/miniconda3
+Unpacking payload ...
+  0%|                                   | 0/225 [00:00<?, ?it/s]Extracting : conda-package-handling-2.2.0-py312h06a4308_0.conda:Extracting : idna-3.4-py310h06a4308_0.conda:   0%| | 1/225 [00:0Extracting : conda-package-streaming-0.9.0-py312h06a4308_0.conda                                                                concurrent.futures.process._RemoteTraceback: 
+'''
+Traceback (most recent call last):
+  File "concurrent/futures/process.py", line 392, in wait_result_broken_or_wakeup
+  File "multiprocessing/connection.py", line 251, in recv
+TypeError: InvalidArchiveError.__init__() missing 1 required positional argument: 'msg'
+'''
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "entry_point.py", line 294, in <module>
+  File "entry_point.py", line 286, in main
+  File "entry_point.py", line 194, in _constructor_subcommand
+  File "entry_point.py", line 159, in _constructor_extract_conda_pkgs
+  File "concurrent/futures/process.py", line 575, in _chain_from_iterable_of_lists
+  File "concurrent/futures/_base.py", line 621, in result_iterator
+  File "concurrent/futures/_base.py", line 319, in _result_or_cancel
+  File "concurrent/futures/_base.py", line 458, in result
+  File "concurrent/futures/_base.py", line 403, in __get_result
+concurrent.futures.process.BrokenProcessPool: A process in the process pool was terminated abruptly while the future was running or pending.
+[1616] Failed to execute script 'entry_point' due to unhandled exception!
+[?2004h(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ [7mrm -rf ~/miniconda3/miniconda.sh[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm -rf ~/miniconda3/miniconda.sh
+[?2004l[?2004h(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ [7m~/miniconda3/bin/conda init bash[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C~/miniconda3/bin/conda init bash
+[?2004lno change     /home/gerish/miniconda3/condabin/conda
+no change     /home/gerish/miniconda3/bin/conda
+no change     /home/gerish/miniconda3/bin/conda-env
+no change     /home/gerish/miniconda3/bin/activate
+no change     /home/gerish/miniconda3/bin/deactivate
+no change     /home/gerish/miniconda3/etc/profile.d/conda.sh
+no change     /home/gerish/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/gerish/miniconda3/shell/condabin/Conda.psm1
+no change     /home/gerish/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/gerish/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /home/gerish/miniconda3/etc/profile.d/conda.csh
+no change     /home/gerish/.bashrc
+No action taken.
+[?2004h(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ [7mmkdir my-project[27mmkdir my-project
+[?2004lmkdir: cannot create directory ‘my-project’: File exists
+[?2004h(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ nan o[K[Ko [7menvironment.yaml[27menvironment.yaml
+[?2004l[?2004h[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;27H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2            environment.yaml                      [1;63H(B[m[31d(B[0;7m^G(B[m Help     (B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[49G(B[0;7m^T(B[m Execute[32d(B[0;7m^X(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste    (B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[30d[K[1;44H(B[0;7m*[63G(B[m[2d[92mname[39m: (B[mmy-project[3d[92mchannels[39m:[4d(B[0;1m[33m  - [39m(B[mdefaults[5d[92mdependencies[39m:[6d(B[0;1m[33m  - [39m(B[mpython[?12l[?25h[?25l[?12l[?25h[7d[?25l[8d[?12l[?25h[?25l[31;13H    (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[32;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m Browse[K[30d(B[0;7mFile Name to Write: environment.yaml                            [30;37H(B[m[?12l[?25h[?25l[30;25H[1K (B[0;7m[ Writing... ](B[m[K[1;44H(B[0;7m [63G(B[m[30;24H(B[0;7m[ Wrote 6 lines ](B[m[31;13H(B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[49G(B[0;7m^T(B[m Execute[K[32;2H(B[0;7mX(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste    (B[0;7m^J(B[m Justify[?12l[?25h[8d[?25l[30d[J[32d[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ [7mconda env create --file environment.[27m[7my[27m[7mml[27m[A(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ conda env create --file environment.yml
+[?2004l
+EnvironmentFileNotFound: '/home/gerish/environment.yml' file not found
+
+[?2004h(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ conda env create --file environment.ymlaml[C[C
+[?2004lChannels:
+ - defaults
+ - conda-forge
+ - new_channel
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / failed
+
+UnavailableInvalidChannel: HTTP 404 NOT FOUND for channel new_channel <https://conda.anaconda.org/new_channel>
+
+The channel is not accessible or is invalid.
+
+You will need to adjust your conda configuration to proceed.
+Use `conda config --show channels` to view your configuration's current state,
+and use `conda config --show-sources` to view config file locations.
+
+
+[?2004h(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ [7mconda activate my-project[27mconda activate my-project
+[?2004l
+EnvironmentNameNotFound: Could not find conda environment: my-project
+You can list all discoverable environments with `conda info --envs`.
+
+
+[?2004h(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ conda activate my-project[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kconda env create --file environment.yaml[C[1Pml[A(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ [15Pnano environment.yaml
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmain.py
+[?2004l[?2004h[?1049h[22;0;0t[1;32r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[30;27H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                 main.py                          [1;63H(B[m[31d(B[0;7m^G(B[m Help     (B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[49G(B[0;7m^T(B[m Execute[32d(B[0;7m^X(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste    (B[0;7m^J(B[m Justify[2d[?12l[?25h[?25l[30d[K[1;40H(B[0;7m*[63G(B[m[2d(B[0;1m[36mdef[34m main[39m(B[m():[3;5Hprint((B[0;1m[32m"Hello, conda!"[39m(B[m)[6d(B[0;1m[36mif[39m(B[m __name__ == (B[0;1m[32m"__main__"[39m(B[m:[7;5Hmain()[?12l[?25h[?25l[31;13H    (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[32;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m Browse[K[30d(B[0;7mFile Name to Write: main.py                                     [30;28H(B[m[?12l[?25h[?25l[1K (B[0;7m[ Writing... ](B[m[K[1;40H(B[0;7m [63G(B[m[30;24H(B[0;7m[ Wrote 6 lines ](B[m[31;13H(B[0;7m^O(B[m Write Out(B[0;7m^W(B[m Where Is (B[0;7m^K(B[m Cut[49G(B[0;7m^T(B[m Execute[K[32;2H(B[0;7mX(B[m Exit     (B[0;7m^R(B[m Read File(B[0;7m^\(B[m Replace  (B[0;7m^U(B[m Paste    (B[0;7m^J(B[m Justify[?12l[?25h[7;11H[?25l[30d[J[32d[?12l[?25h[32;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ [7mpython main.py[27mpython main.py
+[?2004lHello, conda!
+[?2004h(base) ]0;gerish@TIGER04469: ~[01;32mgerish@TIGER04469[00m:[01;34m~[00m$ exir[Kt
+[?2004lexit
+
+Script done on 2024-03-13 22:00:00+05:30 [COMMAND_EXIT_CODE="0"]
